@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What color is the android?"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/question_text_view_GF"
+        android:textSize="50sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_text_view_GF"
+        android:id="@+id/answer_edit_text_GF"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="50dp"
+        android:hint="Enter your answer here . . ." />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/answer_edit_text_GF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/answer_submit_button_GF" />
+
+</RelativeLayout>
